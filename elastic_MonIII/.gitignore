@@ -1,0 +1,16 @@
+/*
+!/src
+!/TextScenario1.xlsx
+!/root.properties
+!/build.gradle
+/.project
+/.classpath
+/build
+/build/*
+/bin
+/bin/*
+/.settings
+/.settings/*
+/.gradle
+/.gradle/*
+!/.gitignore
