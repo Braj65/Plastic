@@ -12,8 +12,6 @@ import java.util.regex.Matcher;
 
 public class FileLoader implements FileLoaderBase{
 	
-	
-
 	@Override
 	public String getProperty(final String key, final String userProvided) {
 		String className=this.getClass().getName();

@@ -29,7 +29,7 @@ public class ConfigProps {
 		}		
 	};
 	
-	String file;	
+	String file;
 	public ConfigProps(final Object obj, final String file){
 		this.file=file;
 		props=Construct(props, obj, file);		

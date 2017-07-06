@@ -8,6 +8,7 @@ public abstract class PageElement {
 	
 	public abstract PageElement getTargetPage();
 	
+	@SuppressWarnings("unchecked")
 	public PageElement initialize(EventFiringWebDriver driver, Class T){
 		return PageFactory.initElements(driver, T);
 	}

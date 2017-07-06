@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Map;
 
-import org.testng.log4testng.Logger;
+import org.apache.log4j.Logger;
 
 import com.trgr.elasticMon.util.fileLoad.FileReader;
 import com.trgr.elasticMon.util.fileLoad.FileReaderBase;
